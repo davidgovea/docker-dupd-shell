@@ -38,6 +38,7 @@ RUN apk update && \
     apk upgrade && \
     apk --update add \
           bash \
+          sqlite \
           && \
     rm -rf /var/cache/apk/*
 
